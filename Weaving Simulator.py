@@ -6,7 +6,7 @@ from tkinter.colorchooser import askcolor
 def draw():
    
     canvas = tk.Canvas(window, width=300, height=400)
-    canvas.grid(row=1,column=11,rowspan=10)
+    canvas.grid(row=1,column=6,rowspan=10)
 
     screen = turtle.TurtleScreen(canvas)
     raw = turtle.RawTurtle(screen)
@@ -53,14 +53,14 @@ if __name__ == '__main__':
 
     window = tk.Tk()
     window.title('Weaving Simulator')
-    window.geometry('600x500')
+    window.geometry('800x600')
     window.configure(background='white')
 
-    header_label = tk.Label(window, text='織布模擬器',font=('微軟正黑體',20), bg='white',width=15,height=2)
-    header_label.grid(row=0,column=0,columnspan=10,padx=10,pady=1)
+    #header_label = tk.Label(window, text='織布模擬器',font=('微軟正黑體',20), bg='white',width=15,height=2)
+    #header_label.grid(row=0,column=0,columnspan=10,padx=10,pady=1)
 
-    logo = tk.PhotoImage(file='logo.png')
-    tk.Label(window, image=logo).grid(row=0,column=11,sticky=tk.NE)
+    logo = tk.PhotoImage(file='永續復興USR計畫_LOGO完整.png')
+    tk.Label(window, image=logo).grid(row=0,column=0,columnspan=10)
 
     weavemethod_label = tk.Label(window, text='織法',font=('微軟正黑體',12))
     weavemethod_label.grid(row=1,column=0,padx=5,pady=5)
@@ -84,7 +84,7 @@ if __name__ == '__main__':
    
     button_start = tk.Button(window, text='Start', font=('Arial',14), command=lambda :draw(),width=15,height=2)
     button_exit = tk.Button(window, text='Exit', font=('Arial',12), command=window.destroy)
-    button_start.grid(row=4,column=0,columnspan=10,padx=10,pady=1)
+    button_start.grid(row=4,column=0,columnspan=3,padx=10,pady=1)
     button_exit.grid(row=5,column=0,padx=10,pady=10)
 
 
