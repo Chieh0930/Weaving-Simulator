@@ -30,7 +30,14 @@ def color_choose_belowline():
     button_start.place(x=20,y=0)
     return Belowline_Color_Code
 
-def draw():
+def draw1():
+   
+    cv = tk.Canvas(frame5, width=350, height=200)
+    cv.grid(row=0, column=0)
+    screen = turtle.TurtleScreen(cv)
+    screen.mainloop()
+
+def draw2():
    
     canvas = tk.Canvas(frame6, width=300, height=400)
     canvas.grid(row=0, column=0)
@@ -81,7 +88,9 @@ if __name__ == '__main__':
     frame3 = tk.Frame(window,bg='white',width=285, height=70)
     frame3.place(x=0,y=375) 
     frame4 = tk.Frame(window,bg='white',width=285, height=700)
-    frame4.place(x=0,y=445) 
+    frame4.place(x=0,y=445)
+    frame5 = tk.Frame(window,bg='light blue',width=350, height=200)
+    frame5.place(x=320,y=305) 
     frame6 = tk.Frame(window,bg='white',width=300, height=900)
     frame6.place(x=700,y=305) 
 
@@ -113,7 +122,7 @@ if __name__ == '__main__':
     belowline_label.place(x=20,y=35)
     button_belowline = tk.Button(frame3, text='選擇下線顏色', command=lambda :color_choose_belowline())
 
-    button_start = tk.Button(frame4, text='Start', font=('Arial',14), command=lambda :draw(),width=15,height=2)
+    button_start = tk.Button(frame4, text='Start', font=('Arial',14), command=lambda :draw2(),width=15,height=2)
     button_exit = tk.Button(frame4, text='Exit', font=('Arial',12), command=window.destroy)
 
     window.mainloop()
