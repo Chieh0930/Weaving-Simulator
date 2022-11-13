@@ -38,8 +38,20 @@ def draw1():
     screen.mainloop()
 
 def draw2():
-   
-    canvas = tk.Canvas(frame6, width=300, height=400)
+    
+    if WeaveAmount==0:
+        a=300
+        b=330
+        c=-150
+    if WeaveAmount==1:
+        a=400
+        b=440
+        c=-200
+    if WeaveAmount==2:
+        a=500
+        b=530
+        c=-250
+    canvas = tk.Canvas(frame6, width=b, height=400)
     canvas.grid(row=0, column=0)
     screen = turtle.TurtleScreen(canvas)
     raw = turtle.RawTurtle(screen)
@@ -47,21 +59,21 @@ def draw2():
     if WeaveMethod==0:#平織
         raw.hideturtle()
         raw.penup()
-        raw.setposition(-150,-200)
+        raw.setposition(c,-190)
         raw.pensize(10)
         raw.speed(0)
         for i in range(20):
     
             raw.pendown()
             raw.color(Overline_Color_Code[1])
-            raw.forward(300)
+            raw.forward(a)
             raw.penup()
             raw.setheading(90)
             raw.forward(10)
             raw.setheading(180)
             raw.color(Belowline_Color_Code[1])
             raw.pendown()
-            raw.forward(300)
+            raw.forward(a)
             raw.penup()
             raw.setheading(90)
             raw.forward(10)
