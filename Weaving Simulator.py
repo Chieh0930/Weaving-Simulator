@@ -1,6 +1,5 @@
 #v0.0 
 # -*- coding: utf-8 -*-
-## 66
 
 from distutils.cmd import Command
 from pickle import FRAME
