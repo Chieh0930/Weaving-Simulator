@@ -1,6 +1,5 @@
 #v0.0 
 
-
 from pickle import FRAME
 import tkinter as tk
 import tkinter.ttk as ttk
