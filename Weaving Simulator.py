@@ -1,6 +1,5 @@
 #v0.0 
 # -*- coding: utf-8 -*-
-## 66
 
 from distutils.cmd import Command
 from pickle import FRAME
@@ -821,6 +820,7 @@ if __name__ == '__main__':
     buttonbelow_29.place(x=755,y=105)
     buttonbelow_30.place(x=805,y=105)
 
+    '''
     overline_label = tk.Label(frame3, text='上線',font=('微軟正黑體',12))
     overline_label.place(x=20,y=0)
     button_overline = tk.Button(frame3, text='選擇上線顏色', command=lambda :color_choose_overline())
@@ -828,6 +828,7 @@ if __name__ == '__main__':
     belowline_label = tk.Label(frame3, text='下線',font=('微軟正黑體',12))
     belowline_label.place(x=20,y=35)
     button_belowline = tk.Button(frame3, text='選擇下線顏色', command=lambda :color_choose_belowline())
+    '''
 
     button_start = tk.Button(frame4, text='Start', font=('Arial',14), command=lambda :draw2(),width=15,height=2)
     button_exit = tk.Button(frame4, text='Exit', font=('Arial',12), command=window.destroy)
