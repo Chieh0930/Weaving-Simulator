@@ -13,24 +13,40 @@ def SelectWeaveMethod(event):
     global WeaveMethod
     WeaveMethod = weavemethod.current()
 
+    if WeaveMethod==0:
+        print('織法:',WeaveMethod)
+        overline_label = tk.Label(frame3, text='上線',font=('微軟正黑體',12))
+        overline_label.place(x=20,y=0)
+        button_overline = tk.Button(frame3, text='選擇上線顏色', command=lambda :color_choose_overline())
+        button_overline.place(x=125,y=0)
+    
+
+        belowline_label = tk.Label(frame3, text='下線',font=('微軟正黑體',12))
+        belowline_label.place(x=20,y=35)
+        button_belowline = tk.Button(frame3, text='選擇下線顏色', command=lambda :color_choose_belowline())
+        button_belowline.place(x=125,y=35)
+    elif WeaveMethod==1:
+        print('織法:',WeaveMethod)
+    elif WeaveMethod==2:
+        print('織法:',WeaveMethod)
+
+
 def SelectWeaveAmount(event):
     global WeaveAmount
     WeaveAmount = weaveamount.current()
-    button_overline.place(x=125,y=0)
-    button_belowline.place(x=125,y=35)
-
+    
 def color_choose_overline():
-    global Overline_Color_Code
-    Overline_Color_Code = tk.colorchooser.askcolor(title ='選擇上線顏色', color ='blue')
-    button_overline.configure(bg=Overline_Color_Code[1],fg=Overline_Color_Code[1]) 
-    return Overline_Color_Code
-def color_choose_belowline():
-    global Belowline_Color_Code
-    Belowline_Color_Code = tk.colorchooser.askcolor(title ='選擇下線顏色', color ='blue')
-    button_belowline.configure(bg=Belowline_Color_Code[1],fg=Belowline_Color_Code[1])
-    button_start.place(x=20,y=20)
-    return Belowline_Color_Code
+        global Overline_Color_Code
+        Overline_Color_Code = tk.colorchooser.askcolor(title ='選擇上線顏色', color ='blue')
+        button_overline.configure(bg=Overline_Color_Code[1],fg=Overline_Color_Code[1]) 
+        return Overline_Color_Code
 
+def color_choose_belowline():
+        global Belowline_Color_Code
+        Belowline_Color_Code = tk.colorchooser.askcolor(title ='選擇下線顏色', color ='blue')
+        button_belowline.configure(bg=Belowline_Color_Code[1],fg=Belowline_Color_Code[1])
+        button_start.place(x=20,y=20)
+        return Belowline_Color_Code
 
 def color_choose_overline1():
     global Overline_Color_Code1
@@ -819,17 +835,7 @@ if __name__ == '__main__':
     buttonbelow_28.place(x=705,y=105)
     buttonbelow_29.place(x=755,y=105)
     buttonbelow_30.place(x=805,y=105)
-
-    '''
-    overline_label = tk.Label(frame3, text='上線',font=('微軟正黑體',12))
-    overline_label.place(x=20,y=0)
-    button_overline = tk.Button(frame3, text='選擇上線顏色', command=lambda :color_choose_overline())
-
-    belowline_label = tk.Label(frame3, text='下線',font=('微軟正黑體',12))
-    belowline_label.place(x=20,y=35)
-    button_belowline = tk.Button(frame3, text='選擇下線顏色', command=lambda :color_choose_belowline())
-    '''
-
+      
     button_start = tk.Button(frame4, text='Start', font=('Arial',14), command=lambda :draw2(),width=15,height=2)
     button_exit = tk.Button(frame4, text='Exit', font=('Arial',12), command=window.destroy)
     
