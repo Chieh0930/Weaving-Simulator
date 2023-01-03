@@ -36,9 +36,9 @@ def SelectWeaveAmount(event):
         belowline_label_2.place(x=20,y=110)
 
         buttonover_1.place(x=80,y=10)
-        buttonover_2.place(x=130,y=10)
-        buttonover_3.place(x=180,y=10)
-        buttonover_4.place(x=230,y=10)
+        buttonover_2.place(x=110,y=10)
+        buttonover_3.place(x=140,y=10)
+        buttonover_4.place(x=170,y=10)#改距離為30
         buttonover_5.place(x=280,y=10)
         buttonover_6.place(x=330,y=10)
         buttonover_7.place(x=380,y=10)
@@ -66,10 +66,10 @@ def SelectWeaveAmount(event):
         buttonover_29.place(x=730,y=80)
         buttonover_30.place(x=780,y=80)
 
-        buttonbelow_1.place(x=105,y=35)
-        buttonbelow_2.place(x=155,y=35)
-        buttonbelow_3.place(x=205,y=35)
-        buttonbelow_4.place(x=255,y=35)
+        buttonbelow_1.place(x=95,y=35)
+        buttonbelow_2.place(x=125,y=35)
+        buttonbelow_3.place(x=155,y=35)
+        buttonbelow_4.place(x=185,y=35)#改距離為30
         buttonbelow_5.place(x=305,y=35)
         buttonbelow_6.place(x=355,y=35)
         buttonbelow_7.place(x=405,y=35)
@@ -744,13 +744,13 @@ if __name__ == '__main__':
     
     window = tk.Tk()
     window.title('Weaving Simulator v0.0')
-    window.geometry('1300x900')
+    window.geometry('1600x900')
     window.configure(background='white')
-    window.iconbitmap('Logo.ico')                                                 #圖片檔丟入資料夾
+    window.iconbitmap('logo.ico')                                                 #圖片檔丟入資料夾
 
-    frame1 = tk.Frame(window,bg='white',width=1050, height=295)
+    frame1 = tk.Frame(window,bg='white',width=1600, height=300)
     frame1.place(x=0,y=0)  
-    label = tk.PhotoImage(file='永續復興USR計畫_LOGO完整.png')                    #未來要改放設計的label
+    label = tk.PhotoImage(file='織帶Label.png')
     tk.Label(frame1, image=label).place(x=0,y=0)             
 
     frame2 = tk.Frame(window,bg='white',width=285, height=80)
@@ -803,10 +803,10 @@ if __name__ == '__main__':
     belowline_label_3 = tk.Label(frame5, text='下線',font=('微軟正黑體',12))
     belowline_label_4 = tk.Label(frame5, text='下線',font=('微軟正黑體',12))
         
-    buttonover_1 = tk.Button(frame5, text='', height=1, width=2, bg ='lightgray', command=lambda :color_choose_overline1())
-    buttonover_2 = tk.Button(frame5, text='', height=1, width=2, bg ='lightgray', command=lambda :color_choose_overline2())
-    buttonover_3 = tk.Button(frame5, text='', height=1, width=2, bg ='lightgray', command=lambda :color_choose_overline3())
-    buttonover_4 = tk.Button(frame5, text='', height=1, width=2, bg ='lightgray', command=lambda :color_choose_overline4())
+    buttonover_1 = tk.Button(frame5, text='', height=1, width=1, bg ='lightgray', command=lambda :color_choose_overline1())
+    buttonover_2 = tk.Button(frame5, text='', height=1, width=1, bg ='lightgray', command=lambda :color_choose_overline2())
+    buttonover_3 = tk.Button(frame5, text='', height=1, width=1, bg ='lightgray', command=lambda :color_choose_overline3())
+    buttonover_4 = tk.Button(frame5, text='', height=1, width=1, bg ='lightgray', command=lambda :color_choose_overline4())#改width=1
     buttonover_5 = tk.Button(frame5, text='', height=1, width=2, bg ='lightgray', command=lambda :color_choose_overline5())
     buttonover_6 = tk.Button(frame5, text='', height=1, width=2, bg ='lightgray', command=lambda :color_choose_overline6())
     buttonover_7 = tk.Button(frame5, text='', height=1, width=2, bg ='lightgray', command=lambda :color_choose_overline7())
@@ -834,10 +834,10 @@ if __name__ == '__main__':
     buttonover_29 = tk.Button(frame5, text='', height=1, width=2, bg ='lightgray', command=lambda :color_choose_overline29())
     buttonover_30 = tk.Button(frame5, text='', height=1, width=2, bg ='lightgray', command=lambda :color_choose_overline30())
 
-    buttonbelow_1 = tk.Button(frame5, text='', height=1, width=2, bg ='lightgray', command=lambda :color_choose_belowline1())
-    buttonbelow_2 = tk.Button(frame5, text='', height=1, width=2, bg ='lightgray', command=lambda :color_choose_belowline2())
-    buttonbelow_3 = tk.Button(frame5, text='', height=1, width=2, bg ='lightgray', command=lambda :color_choose_belowline3())
-    buttonbelow_4 = tk.Button(frame5, text='', height=1, width=2, bg ='lightgray', command=lambda :color_choose_belowline4())
+    buttonbelow_1 = tk.Button(frame5, text='', height=1, width=1, bg ='lightgray', command=lambda :color_choose_belowline1())
+    buttonbelow_2 = tk.Button(frame5, text='', height=1, width=1, bg ='lightgray', command=lambda :color_choose_belowline2())
+    buttonbelow_3 = tk.Button(frame5, text='', height=1, width=1, bg ='lightgray', command=lambda :color_choose_belowline3())
+    buttonbelow_4 = tk.Button(frame5, text='', height=1, width=1, bg ='lightgray', command=lambda :color_choose_belowline4())
     buttonbelow_5 = tk.Button(frame5, text='', height=1, width=2, bg ='lightgray', command=lambda :color_choose_belowline5())
     buttonbelow_6 = tk.Button(frame5, text='', height=1, width=2, bg ='lightgray', command=lambda :color_choose_belowline6())
     buttonbelow_7 = tk.Button(frame5, text='', height=1, width=2, bg ='lightgray', command=lambda :color_choose_belowline7())
