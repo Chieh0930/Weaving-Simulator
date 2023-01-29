@@ -102,26 +102,204 @@ def SelectWeaveAmount(event):
        
         overline_label_1.place(x=20,y=10)
         overline_label_2.place(x=20,y=80)
-        overline_label_3.place(x=20,y=150)
 
         belowline_label_1.place(x=20,y=40)
         belowline_label_2.place(x=20,y=110)
-        belowline_label_3.place(x=20,y=180)
+
+        buttonover_1.place(x=80,y=10)
+        buttonover_2.place(x=110,y=10)
+        buttonover_3.place(x=140,y=10)
+        buttonover_4.place(x=170,y=10)
+        buttonover_5.place(x=200,y=10)
+        buttonover_6.place(x=230,y=10)
+        buttonover_7.place(x=260,y=10)
+        buttonover_8.place(x=290,y=10)
+        buttonover_9.place(x=320,y=10)
+        buttonover_10.place(x=350,y=10)
+        buttonover_11.place(x=380,y=10)
+        buttonover_12.place(x=410,y=10)
+        buttonover_13.place(x=440,y=10)
+        buttonover_14.place(x=470,y=10)
+        buttonover_15.place(x=500,y=10)
+        buttonover_16.place(x=530,y=10)
+        buttonover_17.place(x=560,y=10)
+        buttonover_18.place(x=590,y=10)
+        buttonover_19.place(x=620,y=10)
+        buttonover_20.place(x=650,y=10)
+        buttonover_21.place(x=80,y=80)
+        buttonover_22.place(x=110,y=80)
+        buttonover_23.place(x=140,y=80)
+        buttonover_24.place(x=170,y=80)
+        buttonover_25.place(x=200,y=80)
+        buttonover_26.place(x=230,y=80)
+        buttonover_27.place(x=260,y=80)
+        buttonover_28.place(x=290,y=80)
+        buttonover_29.place(x=320,y=80)
+        buttonover_30.place(x=350,y=80)
+        buttonover_31.place(x=380,y=80)
+        buttonover_32.place(x=410,y=80)
+        buttonover_33.place(x=440,y=80)
+        buttonover_34.place(x=470,y=80)
+        buttonover_35.place(x=500,y=80)
+        buttonover_36.place(x=530,y=80)
+        buttonover_37.place(x=560,y=80)
+        buttonover_38.place(x=590,y=80)
+        buttonover_39.place(x=620,y=80)
+        buttonover_40.place(x=650,y=80)
+
+        buttonbelow_1.place(x=95,y=35)
+        buttonbelow_2.place(x=125,y=35)
+        buttonbelow_3.place(x=155,y=35)
+        buttonbelow_4.place(x=185,y=35)
+        buttonbelow_5.place(x=215,y=35)
+        buttonbelow_6.place(x=245,y=35)
+        buttonbelow_7.place(x=275,y=35)
+        buttonbelow_8.place(x=305,y=35)
+        buttonbelow_9.place(x=335,y=35)
+        buttonbelow_10.place(x=365,y=35)
+        buttonbelow_11.place(x=395,y=35)
+        buttonbelow_12.place(x=425,y=35)
+        buttonbelow_13.place(x=455,y=35)
+        buttonbelow_14.place(x=485,y=35)
+        buttonbelow_15.place(x=515,y=35)
+        buttonbelow_16.place(x=545,y=35)
+        buttonbelow_17.place(x=575,y=35)
+        buttonbelow_18.place(x=605,y=35)
+        buttonbelow_19.place(x=635,y=35)
+        buttonbelow_20.place(x=665,y=35)
+        buttonbelow_21.place(x=95,y=105)
+        buttonbelow_22.place(x=125,y=105)
+        buttonbelow_23.place(x=155,y=105)
+        buttonbelow_24.place(x=185,y=105)
+        buttonbelow_25.place(x=215,y=105)
+        buttonbelow_26.place(x=245,y=105)
+        buttonbelow_27.place(x=275,y=105)
+        buttonbelow_28.place(x=305,y=105)
+        buttonbelow_29.place(x=335,y=105)
+        buttonbelow_30.place(x=365,y=105)
+        buttonbelow_31.place(x=395,y=105)
+        buttonbelow_32.place(x=425,y=105)
+        buttonbelow_33.place(x=455,y=105)
+        buttonbelow_34.place(x=485,y=105)
+        buttonbelow_35.place(x=515,y=105)
+        buttonbelow_36.place(x=545,y=105)
+        buttonbelow_37.place(x=575,y=105)
+        buttonbelow_38.place(x=605,y=105)
+        buttonbelow_39.place(x=635,y=105)
+        buttonbelow_40.place(x=665,y=105)
 
     elif WeaveMethod==0 and WeaveAmount==2:
         print('組數:',WeaveAmount)
         overline_label_1.place(x=20,y=10)
         overline_label_2.place(x=20,y=80)
-        overline_label_3.place(x=20,y=150)
-        overline_label_4.place(x=20,y=220)
 
         belowline_label_1.place(x=20,y=40)
         belowline_label_2.place(x=20,y=110)
-        belowline_label_3.place(x=20,y=180)
-        belowline_label_4.place(x=20,y=250)
+
+        buttonover_1.place(x=80,y=10)
+        buttonover_2.place(x=110,y=10)
+        buttonover_3.place(x=140,y=10)
+        buttonover_4.place(x=170,y=10)
+        buttonover_5.place(x=200,y=10)
+        buttonover_6.place(x=230,y=10)
+        buttonover_7.place(x=260,y=10)
+        buttonover_8.place(x=290,y=10)
+        buttonover_9.place(x=320,y=10)
+        buttonover_10.place(x=350,y=10)
+        buttonover_11.place(x=380,y=10)
+        buttonover_12.place(x=410,y=10)
+        buttonover_13.place(x=440,y=10)
+        buttonover_14.place(x=470,y=10)
+        buttonover_15.place(x=500,y=10)
+        buttonover_16.place(x=530,y=10)
+        buttonover_17.place(x=560,y=10)
+        buttonover_18.place(x=590,y=10)
+        buttonover_19.place(x=620,y=10)
+        buttonover_20.place(x=650,y=10)
+        buttonover_21.place(x=680,y=10)
+        buttonover_22.place(x=710,y=10)
+        buttonover_23.place(x=740,y=10)
+        buttonover_24.place(x=770,y=10)
+        buttonover_25.place(x=800,y=10)
+        buttonover_26.place(x=80,y=80)
+        buttonover_27.place(x=110,y=80)
+        buttonover_28.place(x=140,y=80)
+        buttonover_29.place(x=170,y=80)
+        buttonover_30.place(x=200,y=80)
+        buttonover_31.place(x=230,y=80)
+        buttonover_32.place(x=260,y=80)
+        buttonover_33.place(x=290,y=80)
+        buttonover_34.place(x=320,y=80)
+        buttonover_35.place(x=350,y=80)
+        buttonover_36.place(x=380,y=80)
+        buttonover_37.place(x=410,y=80)
+        buttonover_38.place(x=440,y=80)
+        buttonover_39.place(x=470,y=80)
+        buttonover_40.place(x=500,y=80)
+        buttonover_41.place(x=530,y=80)
+        buttonover_42.place(x=560,y=80)
+        buttonover_43.place(x=590,y=80)
+        buttonover_44.place(x=620,y=80)
+        buttonover_45.place(x=650,y=80)
+        buttonover_46.place(x=680,y=80)
+        buttonover_47.place(x=710,y=80)
+        buttonover_48.place(x=740,y=80)
+        buttonover_49.place(x=770,y=80)
+        buttonover_50.place(x=800,y=80)
+
+        buttonbelow_1.place(x=95,y=35)
+        buttonbelow_2.place(x=125,y=35)
+        buttonbelow_3.place(x=155,y=35)
+        buttonbelow_4.place(x=185,y=35)
+        buttonbelow_5.place(x=215,y=35)
+        buttonbelow_6.place(x=245,y=35)
+        buttonbelow_7.place(x=275,y=35)
+        buttonbelow_8.place(x=305,y=35)
+        buttonbelow_9.place(x=335,y=35)
+        buttonbelow_10.place(x=365,y=35)
+        buttonbelow_11.place(x=395,y=35)
+        buttonbelow_12.place(x=425,y=35)
+        buttonbelow_13.place(x=455,y=35)
+        buttonbelow_14.place(x=485,y=35)
+        buttonbelow_15.place(x=515,y=35)
+        buttonbelow_16.place(x=545,y=35)
+        buttonbelow_17.place(x=575,y=35)
+        buttonbelow_18.place(x=605,y=35)
+        buttonbelow_19.place(x=635,y=35)
+        buttonbelow_20.place(x=665,y=35)
+        buttonbelow_21.place(x=695,y=35)
+        buttonbelow_22.place(x=725,y=35)
+        buttonbelow_23.place(x=755,y=35)
+        buttonbelow_24.place(x=785,y=35)
+        buttonbelow_25.place(x=815,y=35)
+        buttonbelow_26.place(x=95,y=105)
+        buttonbelow_27.place(x=125,y=105)
+        buttonbelow_28.place(x=155,y=105)
+        buttonbelow_29.place(x=185,y=105)
+        buttonbelow_30.place(x=215,y=105)
+        buttonbelow_31.place(x=245,y=105)
+        buttonbelow_32.place(x=275,y=105)
+        buttonbelow_33.place(x=305,y=105)
+        buttonbelow_34.place(x=335,y=105)
+        buttonbelow_35.place(x=365,y=105)
+        buttonbelow_36.place(x=395,y=105)
+        buttonbelow_37.place(x=425,y=105)
+        buttonbelow_38.place(x=455,y=105)
+        buttonbelow_39.place(x=485,y=105)
+        buttonbelow_40.place(x=515,y=105)
+        buttonbelow_41.place(x=545,y=105)
+        buttonbelow_42.place(x=575,y=105)
+        buttonbelow_43.place(x=605,y=105)
+        buttonbelow_44.place(x=635,y=105)
+        buttonbelow_45.place(x=665,y=105)
+        buttonbelow_46.place(x=695,y=105)
+        buttonbelow_47.place(x=725,y=105)
+        buttonbelow_48.place(x=755,y=105)
+        buttonbelow_49.place(x=785,y=105)
+        buttonbelow_50.place(x=815,y=105)
 
 
-def color_choose_overline():
+'''def color_choose_overline():
         global Overline_Color_Code
         Overline_Color_Code = tk.colorchooser.askcolor(title ='選擇上線顏色', color ='blue')
         button_overline.configure(bg=Overline_Color_Code[1],fg=Overline_Color_Code[1]) 
@@ -132,7 +310,7 @@ def color_choose_belowline():
         Belowline_Color_Code = tk.colorchooser.askcolor(title ='選擇下線顏色', color ='blue')
         button_belowline.configure(bg=Belowline_Color_Code[1],fg=Belowline_Color_Code[1])
         button_start.place(x=20,y=20)
-        return Belowline_Color_Code
+        return Belowline_Color_Code'''
 
 def color_choose_overline1():
     global Overline_Color_Code1
@@ -315,6 +493,128 @@ def color_choose_overline30():
     buttonbelow_30.configure(bg=Overline_Color_Code30[1],fg=Overline_Color_Code30[1]) 
     button_start.place(x=20,y=20)
     return Overline_Color_Code30
+def color_choose_overline31():
+    global Overline_Color_Code31
+    Overline_Color_Code31 = tk.colorchooser.askcolor(title ='選擇上線顏色', color ='blue')
+    buttonover_31.configure(bg=Overline_Color_Code31[1],fg=Overline_Color_Code31[1]) 
+    buttonbelow_31.configure(bg=Overline_Color_Code31[1],fg=Overline_Color_Code31[1]) 
+    return Overline_Color_Code31
+def color_choose_overline32():
+    global Overline_Color_Code32
+    Overline_Color_Code32 = tk.colorchooser.askcolor(title ='選擇上線顏色', color ='blue')
+    buttonover_32.configure(bg=Overline_Color_Code32[1],fg=Overline_Color_Code32[1]) 
+    buttonbelow_32.configure(bg=Overline_Color_Code32[1],fg=Overline_Color_Code32[1]) 
+    return Overline_Color_Code32
+def color_choose_overline33():
+    global Overline_Color_Code33
+    Overline_Color_Code33 = tk.colorchooser.askcolor(title ='選擇上線顏色', color ='blue')
+    buttonover_33.configure(bg=Overline_Color_Code33[1],fg=Overline_Color_Code33[1]) 
+    buttonbelow_33.configure(bg=Overline_Color_Code33[1],fg=Overline_Color_Code33[1]) 
+    return Overline_Color_Code33
+def color_choose_overline34():
+    global Overline_Color_Code34
+    Overline_Color_Code34 = tk.colorchooser.askcolor(title ='選擇上線顏色', color ='blue')
+    buttonover_34.configure(bg=Overline_Color_Code34[1],fg=Overline_Color_Code34[1]) 
+    buttonbelow_34.configure(bg=Overline_Color_Code34[1],fg=Overline_Color_Code34[1]) 
+    return Overline_Color_Code34
+def color_choose_overline35():
+    global Overline_Color_Code35
+    Overline_Color_Code35 = tk.colorchooser.askcolor(title ='選擇上線顏色', color ='blue')
+    buttonover_35.configure(bg=Overline_Color_Code35[1],fg=Overline_Color_Code35[1]) 
+    buttonbelow_35.configure(bg=Overline_Color_Code35[1],fg=Overline_Color_Code35[1]) 
+    return Overline_Color_Code35
+def color_choose_overline36():
+    global Overline_Color_Code36
+    Overline_Color_Code36 = tk.colorchooser.askcolor(title ='選擇上線顏色', color ='blue')
+    buttonover_36.configure(bg=Overline_Color_Code36[1],fg=Overline_Color_Code36[1]) 
+    buttonbelow_36.configure(bg=Overline_Color_Code36[1],fg=Overline_Color_Code36[1]) 
+    return Overline_Color_Code36
+def color_choose_overline37():
+    global Overline_Color_Code37
+    Overline_Color_Code37 = tk.colorchooser.askcolor(title ='選擇上線顏色', color ='blue')
+    buttonover_37.configure(bg=Overline_Color_Code37[1],fg=Overline_Color_Code37[1]) 
+    buttonbelow_37.configure(bg=Overline_Color_Code37[1],fg=Overline_Color_Code37[1]) 
+    return Overline_Color_Code37
+def color_choose_overline38():
+    global Overline_Color_Code38
+    Overline_Color_Code38 = tk.colorchooser.askcolor(title ='選擇上線顏色', color ='blue')
+    buttonover_38.configure(bg=Overline_Color_Code38[1],fg=Overline_Color_Code38[1]) 
+    buttonbelow_38.configure(bg=Overline_Color_Code38[1],fg=Overline_Color_Code38[1]) 
+    return Overline_Color_Code38
+def color_choose_overline39():
+    global Overline_Color_Code39
+    Overline_Color_Code39 = tk.colorchooser.askcolor(title ='選擇上線顏色', color ='blue')
+    buttonover_39.configure(bg=Overline_Color_Code39[1],fg=Overline_Color_Code39[1]) 
+    buttonbelow_39.configure(bg=Overline_Color_Code39[1],fg=Overline_Color_Code39[1]) 
+    return Overline_Color_Code39
+def color_choose_overline40():
+    global Overline_Color_Code40
+    Overline_Color_Code40 = tk.colorchooser.askcolor(title ='選擇上線顏色', color ='blue')
+    buttonover_40.configure(bg=Overline_Color_Code40[1],fg=Overline_Color_Code40[1]) 
+    buttonbelow_40.configure(bg=Overline_Color_Code40[1],fg=Overline_Color_Code40[1]) 
+    button_start.place(x=20,y=20)
+    return Overline_Color_Code40
+def color_choose_overline41():
+    global Overline_Color_Code41
+    Overline_Color_Code41 = tk.colorchooser.askcolor(title ='選擇上線顏色', color ='blue')
+    buttonover_41.configure(bg=Overline_Color_Code41[1],fg=Overline_Color_Code41[1]) 
+    buttonbelow_41.configure(bg=Overline_Color_Code41[1],fg=Overline_Color_Code41[1]) 
+    return Overline_Color_Code41
+def color_choose_overline42():
+    global Overline_Color_Code42
+    Overline_Color_Code42 = tk.colorchooser.askcolor(title ='選擇上線顏色', color ='blue')
+    buttonover_42.configure(bg=Overline_Color_Code42[1],fg=Overline_Color_Code42[1]) 
+    buttonbelow_42.configure(bg=Overline_Color_Code42[1],fg=Overline_Color_Code42[1]) 
+    return Overline_Color_Code42
+def color_choose_overline43():
+    global Overline_Color_Code43
+    Overline_Color_Code43 = tk.colorchooser.askcolor(title ='選擇上線顏色', color ='blue')
+    buttonover_43.configure(bg=Overline_Color_Code43[1],fg=Overline_Color_Code43[1]) 
+    buttonbelow_43.configure(bg=Overline_Color_Code43[1],fg=Overline_Color_Code43[1]) 
+    return Overline_Color_Code43
+def color_choose_overline44():
+    global Overline_Color_Code44
+    Overline_Color_Code44 = tk.colorchooser.askcolor(title ='選擇上線顏色', color ='blue')
+    buttonover_44.configure(bg=Overline_Color_Code44[1],fg=Overline_Color_Code44[1]) 
+    buttonbelow_44.configure(bg=Overline_Color_Code44[1],fg=Overline_Color_Code44[1]) 
+    return Overline_Color_Code44
+def color_choose_overline45():
+    global Overline_Color_Code45
+    Overline_Color_Code45 = tk.colorchooser.askcolor(title ='選擇上線顏色', color ='blue')
+    buttonover_45.configure(bg=Overline_Color_Code45[1],fg=Overline_Color_Code45[1]) 
+    buttonbelow_45.configure(bg=Overline_Color_Code45[1],fg=Overline_Color_Code45[1]) 
+    return Overline_Color_Code45
+def color_choose_overline46():
+    global Overline_Color_Code46
+    Overline_Color_Code46 = tk.colorchooser.askcolor(title ='選擇上線顏色', color ='blue')
+    buttonover_46.configure(bg=Overline_Color_Code46[1],fg=Overline_Color_Code46[1]) 
+    buttonbelow_46.configure(bg=Overline_Color_Code46[1],fg=Overline_Color_Code46[1]) 
+    return Overline_Color_Code46
+def color_choose_overline47():
+    global Overline_Color_Code47
+    Overline_Color_Code47 = tk.colorchooser.askcolor(title ='選擇上線顏色', color ='blue')
+    buttonover_47.configure(bg=Overline_Color_Code47[1],fg=Overline_Color_Code47[1]) 
+    buttonbelow_47.configure(bg=Overline_Color_Code47[1],fg=Overline_Color_Code47[1]) 
+    return Overline_Color_Code47
+def color_choose_overline48():
+    global Overline_Color_Code48
+    Overline_Color_Code48 = tk.colorchooser.askcolor(title ='選擇上線顏色', color ='blue')
+    buttonover_48.configure(bg=Overline_Color_Code48[1],fg=Overline_Color_Code48[1]) 
+    buttonbelow_48.configure(bg=Overline_Color_Code48[1],fg=Overline_Color_Code48[1]) 
+    return Overline_Color_Code48
+def color_choose_overline49():
+    global Overline_Color_Code49
+    Overline_Color_Code49 = tk.colorchooser.askcolor(title ='選擇上線顏色', color ='blue')
+    buttonover_49.configure(bg=Overline_Color_Code49[1],fg=Overline_Color_Code49[1]) 
+    buttonbelow_49.configure(bg=Overline_Color_Code49[1],fg=Overline_Color_Code49[1]) 
+    return Overline_Color_Code49
+def color_choose_overline50():
+    global Overline_Color_Code50
+    Overline_Color_Code50 = tk.colorchooser.askcolor(title ='選擇上線顏色', color ='blue')
+    buttonover_50.configure(bg=Overline_Color_Code50[1],fg=Overline_Color_Code50[1]) 
+    buttonbelow_50.configure(bg=Overline_Color_Code50[1],fg=Overline_Color_Code50[1]) 
+    button_start.place(x=20,y=20)
+    return Overline_Color_Code50
 
 
 def color_choose_belowline1():
@@ -496,6 +796,128 @@ def color_choose_belowline30():
     Belowline_Color_Code = tk.colorchooser.askcolor(title ='選擇下線顏色', color ='blue')
     buttonover_30.configure(bg=Belowline_Color_Code[1],fg=Belowline_Color_Code[1])
     buttonbelow_30.configure(bg=Belowline_Color_Code[1],fg=Belowline_Color_Code[1]) 
+    button_start.place(x=20,y=20)
+    return Belowline_Color_Code
+def color_choose_belowline31():
+    global Belowline_Color_Code
+    Belowline_Color_Code = tk.colorchooser.askcolor(title ='選擇上下線顏色', color ='blue')
+    buttonover_31.configure(bg=Belowline_Color_Code[1],fg=Belowline_Color_Code[1])
+    buttonbelow_31.configure(bg=Belowline_Color_Code[1],fg=Belowline_Color_Code[1]) 
+    return Belowline_Color_Code
+def color_choose_belowline32():
+    global Belowline_Color_Code
+    Belowline_Color_Code = tk.colorchooser.askcolor(title ='選擇下線顏色', color ='blue')
+    buttonover_32.configure(bg=Belowline_Color_Code[1],fg=Belowline_Color_Code[1])
+    buttonbelow_32.configure(bg=Belowline_Color_Code[1],fg=Belowline_Color_Code[1]) 
+    return Belowline_Color_Code
+def color_choose_belowline33():
+    global Belowline_Color_Code
+    Belowline_Color_Code = tk.colorchooser.askcolor(title ='選擇下線顏色', color ='blue')
+    buttonover_33.configure(bg=Belowline_Color_Code[1],fg=Belowline_Color_Code[1])
+    buttonbelow_33.configure(bg=Belowline_Color_Code[1],fg=Belowline_Color_Code[1]) 
+    return Belowline_Color_Code
+def color_choose_belowline34():
+    global Belowline_Color_Code
+    Belowline_Color_Code = tk.colorchooser.askcolor(title ='選擇下線顏色', color ='blue')
+    buttonover_34.configure(bg=Belowline_Color_Code[1],fg=Belowline_Color_Code[1])
+    buttonbelow_34.configure(bg=Belowline_Color_Code[1],fg=Belowline_Color_Code[1]) 
+    return Belowline_Color_Code
+def color_choose_belowline35():
+    global Belowline_Color_Code
+    Belowline_Color_Code = tk.colorchooser.askcolor(title ='選擇下線顏色', color ='blue')
+    buttonover_35.configure(bg=Belowline_Color_Code[1],fg=Belowline_Color_Code[1])
+    buttonbelow_35.configure(bg=Belowline_Color_Code[1],fg=Belowline_Color_Code[1]) 
+    return Belowline_Color_Code
+def color_choose_belowline36():
+    global Belowline_Color_Code
+    Belowline_Color_Code = tk.colorchooser.askcolor(title ='選擇下線顏色', color ='blue')
+    buttonover_36.configure(bg=Belowline_Color_Code[1],fg=Belowline_Color_Code[1])
+    buttonbelow_36.configure(bg=Belowline_Color_Code[1],fg=Belowline_Color_Code[1]) 
+    return Belowline_Color_Code
+def color_choose_belowline37():
+    global Belowline_Color_Code
+    Belowline_Color_Code = tk.colorchooser.askcolor(title ='選擇下線顏色', color ='blue')
+    buttonover_37.configure(bg=Belowline_Color_Code[1],fg=Belowline_Color_Code[1])
+    buttonbelow_37.configure(bg=Belowline_Color_Code[1],fg=Belowline_Color_Code[1]) 
+    return Belowline_Color_Code
+def color_choose_belowline38():
+    global Belowline_Color_Code
+    Belowline_Color_Code = tk.colorchooser.askcolor(title ='選擇下線顏色', color ='blue')
+    buttonover_38.configure(bg=Belowline_Color_Code[1],fg=Belowline_Color_Code[1])
+    buttonbelow_38.configure(bg=Belowline_Color_Code[1],fg=Belowline_Color_Code[1]) 
+    return Belowline_Color_Code
+def color_choose_belowline39():
+    global Belowline_Color_Code
+    Belowline_Color_Code = tk.colorchooser.askcolor(title ='選擇下線顏色', color ='blue')
+    buttonover_39.configure(bg=Belowline_Color_Code[1],fg=Belowline_Color_Code[1])
+    buttonbelow_39.configure(bg=Belowline_Color_Code[1],fg=Belowline_Color_Code[1]) 
+    return Belowline_Color_Code
+def color_choose_belowline40():
+    global Belowline_Color_Code
+    Belowline_Color_Code = tk.colorchooser.askcolor(title ='選擇下線顏色', color ='blue')
+    buttonover_40.configure(bg=Belowline_Color_Code[1],fg=Belowline_Color_Code[1])
+    buttonbelow_40.configure(bg=Belowline_Color_Code[1],fg=Belowline_Color_Code[1]) 
+    button_start.place(x=20,y=20)
+    return Belowline_Color_Code
+def color_choose_belowline41():
+    global Belowline_Color_Code
+    Belowline_Color_Code = tk.colorchooser.askcolor(title ='選擇上下線顏色', color ='blue')
+    buttonover_41.configure(bg=Belowline_Color_Code[1],fg=Belowline_Color_Code[1])
+    buttonbelow_41.configure(bg=Belowline_Color_Code[1],fg=Belowline_Color_Code[1]) 
+    return Belowline_Color_Code
+def color_choose_belowline42():
+    global Belowline_Color_Code
+    Belowline_Color_Code = tk.colorchooser.askcolor(title ='選擇下線顏色', color ='blue')
+    buttonover_42.configure(bg=Belowline_Color_Code[1],fg=Belowline_Color_Code[1])
+    buttonbelow_42.configure(bg=Belowline_Color_Code[1],fg=Belowline_Color_Code[1]) 
+    return Belowline_Color_Code
+def color_choose_belowline43():
+    global Belowline_Color_Code
+    Belowline_Color_Code = tk.colorchooser.askcolor(title ='選擇下線顏色', color ='blue')
+    buttonover_43.configure(bg=Belowline_Color_Code[1],fg=Belowline_Color_Code[1])
+    buttonbelow_43.configure(bg=Belowline_Color_Code[1],fg=Belowline_Color_Code[1]) 
+    return Belowline_Color_Code
+def color_choose_belowline44():
+    global Belowline_Color_Code
+    Belowline_Color_Code = tk.colorchooser.askcolor(title ='選擇下線顏色', color ='blue')
+    buttonover_44.configure(bg=Belowline_Color_Code[1],fg=Belowline_Color_Code[1])
+    buttonbelow_44.configure(bg=Belowline_Color_Code[1],fg=Belowline_Color_Code[1]) 
+    return Belowline_Color_Code
+def color_choose_belowline45():
+    global Belowline_Color_Code
+    Belowline_Color_Code = tk.colorchooser.askcolor(title ='選擇下線顏色', color ='blue')
+    buttonover_45.configure(bg=Belowline_Color_Code[1],fg=Belowline_Color_Code[1])
+    buttonbelow_45.configure(bg=Belowline_Color_Code[1],fg=Belowline_Color_Code[1]) 
+    return Belowline_Color_Code
+def color_choose_belowline46():
+    global Belowline_Color_Code
+    Belowline_Color_Code = tk.colorchooser.askcolor(title ='選擇下線顏色', color ='blue')
+    buttonover_46.configure(bg=Belowline_Color_Code[1],fg=Belowline_Color_Code[1])
+    buttonbelow_46.configure(bg=Belowline_Color_Code[1],fg=Belowline_Color_Code[1]) 
+    return Belowline_Color_Code
+def color_choose_belowline47():
+    global Belowline_Color_Code
+    Belowline_Color_Code = tk.colorchooser.askcolor(title ='選擇下線顏色', color ='blue')
+    buttonover_47.configure(bg=Belowline_Color_Code[1],fg=Belowline_Color_Code[1])
+    buttonbelow_47.configure(bg=Belowline_Color_Code[1],fg=Belowline_Color_Code[1]) 
+    return Belowline_Color_Code
+def color_choose_belowline48():
+    global Belowline_Color_Code
+    Belowline_Color_Code = tk.colorchooser.askcolor(title ='選擇下線顏色', color ='blue')
+    buttonover_48.configure(bg=Belowline_Color_Code[1],fg=Belowline_Color_Code[1])
+    buttonbelow_48.configure(bg=Belowline_Color_Code[1],fg=Belowline_Color_Code[1]) 
+    return Belowline_Color_Code
+def color_choose_belowline49():
+    global Belowline_Color_Code
+    Belowline_Color_Code = tk.colorchooser.askcolor(title ='選擇下線顏色', color ='blue')
+    buttonover_49.configure(bg=Belowline_Color_Code[1],fg=Belowline_Color_Code[1])
+    buttonbelow_49.configure(bg=Belowline_Color_Code[1],fg=Belowline_Color_Code[1]) 
+    return Belowline_Color_Code
+def color_choose_belowline50():
+    global Belowline_Color_Code
+    Belowline_Color_Code = tk.colorchooser.askcolor(title ='選擇下線顏色', color ='blue')
+    buttonover_50.configure(bg=Belowline_Color_Code[1],fg=Belowline_Color_Code[1])
+    buttonbelow_50.configure(bg=Belowline_Color_Code[1],fg=Belowline_Color_Code[1]) 
     button_start.place(x=20,y=20)
     return Belowline_Color_Code
 
@@ -5252,7 +5674,7 @@ if __name__ == '__main__':
     frame8.place(x=850,y=290) 
 
     frame9 = tk.Frame(window,bg='white',width=250, height=300)
-    frame9.place(x=0,y=500)
+    frame9.place(x=850,y=500)
 
     
 
@@ -5286,14 +5708,10 @@ if __name__ == '__main__':
 
     overline_label_1 = tk.Label(frame5, text='上線',font=('微軟正黑體',12))
     overline_label_2 = tk.Label(frame5, text='上線',font=('微軟正黑體',12))
-    overline_label_3 = tk.Label(frame5, text='上線',font=('微軟正黑體',12))
-    overline_label_4 = tk.Label(frame5, text='上線',font=('微軟正黑體',12))
 
     belowline_label_1 = tk.Label(frame5, text='下線',font=('微軟正黑體',12))   
     belowline_label_2 = tk.Label(frame5, text='下線',font=('微軟正黑體',12))
-    belowline_label_3 = tk.Label(frame5, text='下線',font=('微軟正黑體',12))
-    belowline_label_4 = tk.Label(frame5, text='下線',font=('微軟正黑體',12))
-        
+
     buttonover_1 = tk.Button(frame5, text='', height=1, width=1, bg ='lightgray', command=lambda :color_choose_overline1())
     buttonover_2 = tk.Button(frame5, text='', height=1, width=1, bg ='lightgray', command=lambda :color_choose_overline2())
     buttonover_3 = tk.Button(frame5, text='', height=1, width=1, bg ='lightgray', command=lambda :color_choose_overline3())
@@ -5324,6 +5742,26 @@ if __name__ == '__main__':
     buttonover_28 = tk.Button(frame5, text='', height=1, width=1, bg ='lightgray', command=lambda :color_choose_overline28())
     buttonover_29 = tk.Button(frame5, text='', height=1, width=1, bg ='lightgray', command=lambda :color_choose_overline29())
     buttonover_30 = tk.Button(frame5, text='', height=1, width=1, bg ='lightgray', command=lambda :color_choose_overline30())
+    buttonover_31 = tk.Button(frame5, text='', height=1, width=1, bg ='lightgray', command=lambda :color_choose_overline31())
+    buttonover_32 = tk.Button(frame5, text='', height=1, width=1, bg ='lightgray', command=lambda :color_choose_overline32())
+    buttonover_33 = tk.Button(frame5, text='', height=1, width=1, bg ='lightgray', command=lambda :color_choose_overline33())
+    buttonover_34 = tk.Button(frame5, text='', height=1, width=1, bg ='lightgray', command=lambda :color_choose_overline34())
+    buttonover_35 = tk.Button(frame5, text='', height=1, width=1, bg ='lightgray', command=lambda :color_choose_overline35())
+    buttonover_36 = tk.Button(frame5, text='', height=1, width=1, bg ='lightgray', command=lambda :color_choose_overline36())
+    buttonover_37 = tk.Button(frame5, text='', height=1, width=1, bg ='lightgray', command=lambda :color_choose_overline37())
+    buttonover_38 = tk.Button(frame5, text='', height=1, width=1, bg ='lightgray', command=lambda :color_choose_overline38())
+    buttonover_39 = tk.Button(frame5, text='', height=1, width=1, bg ='lightgray', command=lambda :color_choose_overline39())
+    buttonover_40 = tk.Button(frame5, text='', height=1, width=1, bg ='lightgray', command=lambda :color_choose_overline40())
+    buttonover_41 = tk.Button(frame5, text='', height=1, width=1, bg ='lightgray', command=lambda :color_choose_overline41())
+    buttonover_42 = tk.Button(frame5, text='', height=1, width=1, bg ='lightgray', command=lambda :color_choose_overline42())
+    buttonover_43 = tk.Button(frame5, text='', height=1, width=1, bg ='lightgray', command=lambda :color_choose_overline43())
+    buttonover_44 = tk.Button(frame5, text='', height=1, width=1, bg ='lightgray', command=lambda :color_choose_overline44())
+    buttonover_45 = tk.Button(frame5, text='', height=1, width=1, bg ='lightgray', command=lambda :color_choose_overline45())
+    buttonover_46 = tk.Button(frame5, text='', height=1, width=1, bg ='lightgray', command=lambda :color_choose_overline46())
+    buttonover_47 = tk.Button(frame5, text='', height=1, width=1, bg ='lightgray', command=lambda :color_choose_overline47())
+    buttonover_48 = tk.Button(frame5, text='', height=1, width=1, bg ='lightgray', command=lambda :color_choose_overline48())
+    buttonover_49 = tk.Button(frame5, text='', height=1, width=1, bg ='lightgray', command=lambda :color_choose_overline49())
+    buttonover_50 = tk.Button(frame5, text='', height=1, width=1, bg ='lightgray', command=lambda :color_choose_overline50())
 
     buttonbelow_1 = tk.Button(frame5, text='', height=1, width=1, bg ='lightgray', command=lambda :color_choose_belowline1())
     buttonbelow_2 = tk.Button(frame5, text='', height=1, width=1, bg ='lightgray', command=lambda :color_choose_belowline2())
@@ -5355,6 +5793,26 @@ if __name__ == '__main__':
     buttonbelow_28 = tk.Button(frame5, text='', height=1, width=1, bg ='lightgray', command=lambda :color_choose_belowline28())
     buttonbelow_29 = tk.Button(frame5, text='', height=1, width=1, bg ='lightgray', command=lambda :color_choose_belowline29())
     buttonbelow_30 = tk.Button(frame5, text='', height=1, width=1, bg ='lightgray', command=lambda :color_choose_belowline30())
+    buttonbelow_31 = tk.Button(frame5, text='', height=1, width=1, bg ='lightgray', command=lambda :color_choose_belowline31())
+    buttonbelow_32 = tk.Button(frame5, text='', height=1, width=1, bg ='lightgray', command=lambda :color_choose_belowline32())
+    buttonbelow_33 = tk.Button(frame5, text='', height=1, width=1, bg ='lightgray', command=lambda :color_choose_belowline33())
+    buttonbelow_34 = tk.Button(frame5, text='', height=1, width=1, bg ='lightgray', command=lambda :color_choose_belowline34())
+    buttonbelow_35 = tk.Button(frame5, text='', height=1, width=1, bg ='lightgray', command=lambda :color_choose_belowline35())
+    buttonbelow_36 = tk.Button(frame5, text='', height=1, width=1, bg ='lightgray', command=lambda :color_choose_belowline36())
+    buttonbelow_37 = tk.Button(frame5, text='', height=1, width=1, bg ='lightgray', command=lambda :color_choose_belowline37())
+    buttonbelow_38 = tk.Button(frame5, text='', height=1, width=1, bg ='lightgray', command=lambda :color_choose_belowline38())
+    buttonbelow_39 = tk.Button(frame5, text='', height=1, width=1, bg ='lightgray', command=lambda :color_choose_belowline39())
+    buttonbelow_40 = tk.Button(frame5, text='', height=1, width=1, bg ='lightgray', command=lambda :color_choose_belowline40())
+    buttonbelow_41 = tk.Button(frame5, text='', height=1, width=1, bg ='lightgray', command=lambda :color_choose_belowline41())
+    buttonbelow_42 = tk.Button(frame5, text='', height=1, width=1, bg ='lightgray', command=lambda :color_choose_belowline42())
+    buttonbelow_43 = tk.Button(frame5, text='', height=1, width=1, bg ='lightgray', command=lambda :color_choose_belowline43())
+    buttonbelow_44 = tk.Button(frame5, text='', height=1, width=1, bg ='lightgray', command=lambda :color_choose_belowline44())
+    buttonbelow_45 = tk.Button(frame5, text='', height=1, width=1, bg ='lightgray', command=lambda :color_choose_belowline45())
+    buttonbelow_46 = tk.Button(frame5, text='', height=1, width=1, bg ='lightgray', command=lambda :color_choose_belowline46())
+    buttonbelow_47 = tk.Button(frame5, text='', height=1, width=1, bg ='lightgray', command=lambda :color_choose_belowline47())
+    buttonbelow_48 = tk.Button(frame5, text='', height=1, width=1, bg ='lightgray', command=lambda :color_choose_belowline48())
+    buttonbelow_49 = tk.Button(frame5, text='', height=1, width=1, bg ='lightgray', command=lambda :color_choose_belowline49())
+    buttonbelow_50 = tk.Button(frame5, text='', height=1, width=1, bg ='lightgray', command=lambda :color_choose_belowline50())
 
     button_start = tk.Button(frame4, text='Start', font=('Arial',14), command=lambda :draw2(),width=15,height=2)
     button_exit = tk.Button(frame4, text='Exit', font=('Arial',12), command=window.destroy)
