@@ -6549,16 +6549,6 @@ if __name__ == '__main__':
     buttonbelow_49 = tk.Button(frame5, text='', height=1, width=1, bg ='lightgray', command=lambda :color_choose_belowline49())
     buttonbelow_50 = tk.Button(frame5, text='', height=1, width=1, bg ='lightgray', command=lambda :color_choose_belowline50())
 
-    '''button_1 = tk.Button(frame5, text='', height=1, width=1, bg ='lightgray')
-    button_2 = tk.Button(frame5, text='', height=1, width=1, bg ='lightgray')
-    button_3 = tk.Button(frame5, text='', height=1, width=1, bg ='lightgray')
-    button_4 = tk.Button(frame5, text='', height=1, width=1, bg ='lightgray')
-    button_5 = tk.Button(frame5, text='', height=1, width=1, bg ='lightgray')
-    button_6 = tk.Button(frame5, text='', height=1, width=1, bg ='lightgray')
-    button_7 = tk.Button(frame5, text='', height=1, width=1, bg ='lightgray')
-    button_8 = tk.Button(frame5, text='', height=1, width=1, bg ='lightgray')
-    button_9 = tk.Button(frame5, text='', height=1, width=1, bg ='lightgray')
-    button_10 = tk.Button(frame5, text='', height=1, width=1, bg ='lightgray')'''
 
     button_start = tk.Button(frame4, text='Start', font=('Arial',14), command=lambda :draw2(),width=15,height=2)
     button_exit = tk.Button(frame4, text='Exit', font=('Arial',12), command=window.destroy)
