@@ -6,12 +6,20 @@ import tkinter.ttk as ttk
 from tkinter.colorchooser import askcolor
 import turtle
 
+
 def SelectWeaveMethod(event):
+
+    ResetFrame()
+    weaveamount_label.place_forget()
+    weaveamount.place_forget()
+
     global WeaveMethod
     WeaveMethod = weavemethod.current()
 
     if WeaveMethod==0:
         print('織法:',WeaveMethod)
+        weaveamount_label.place(x=20,y=45)
+        weaveamount.place(x=80,y=45)
     elif WeaveMethod==1:
         print('織法:',WeaveMethod)
     elif WeaveMethod==2:
@@ -24,6 +32,9 @@ def SelectWeaveMethod(event):
 def SelectWeaveAmount(event):
     global WeaveAmount
     WeaveAmount = weaveamount.current()
+
+    ResetFrame()
+
     if WeaveMethod==0 and WeaveAmount==0:
         print('組數:',WeaveAmount)
 
@@ -996,13 +1007,7 @@ def color_choose_belowline50():
     buttonbelow_50.configure(bg=Belowline_Color_Code[1],fg=Belowline_Color_Code[1]) 
     button_start.place(x=20,y=20)
     return Belowline_Color_Code
-
-
-
-
-
-
-    
+  
 
 def draw2():
     if WeaveMethod==0:
@@ -6380,7 +6385,13 @@ def draw2():
         screen.mainloop()
 
 
+def ResetFrame():
 
+    for widget in frame5.winfo_children():
+        widget.place_forget()
+    for widget in frame3.winfo_children():
+        widget.place_forget()
+    
 
 
 
@@ -6389,7 +6400,7 @@ if __name__ == '__main__':
     
     window = tk.Tk()
     window.title('Weaving Simulator v0.0')
-    window.geometry('1600x900')
+    window.geometry('1000x700')
     window.configure(background='white')
     window.iconbitmap('logo.ico')                                                 #圖片檔丟入資料夾
 
@@ -6427,19 +6438,21 @@ if __name__ == '__main__':
     weavemethod.bind("<<ComboboxSelected>>", SelectWeaveMethod)
 
     weaveamount_label = tk.Label(frame2, text='組數',font=('微軟正黑體',12))
-    weaveamount_label.place(x=20,y=45)
+    #weaveamount_label.place(x=20,y=45)
     weaveamount = ttk.Combobox(frame2, values=[
                                              '30',
                                              '40',
                                              '50'],font=('微軟正黑體',12),state="readonly")
-    weaveamount.place(x=80,y=45)
+    #weaveamount.place(x=80,y=45)
     WeaveAmount = weaveamount.current()
     weaveamount.bind("<<ComboboxSelected>>", SelectWeaveAmount)
 
     overline_label = tk.Label(frame3, text='顏色',font=('微軟正黑體',12))
     button_overline = tk.Button(frame3, text='選擇第一種配色', command=lambda :color_choose_overline())
     belowline_label = tk.Label(frame3, text='顏色',font=('微軟正黑體',12))
-    button_belowline = tk.Button(frame3, text='選擇第一種配色', command=lambda :color_choose_belowline())
+    button_belowline = tk.Button(frame3, text='選擇第二種配色', command=lambda :color_choose_belowline())
+
+    
 
     overline_label_1 = tk.Label(frame5, text='上線',font=('微軟正黑體',12))
     overline_label_2 = tk.Label(frame5, text='上線',font=('微軟正黑體',12))
@@ -6550,8 +6563,9 @@ if __name__ == '__main__':
     buttonbelow_50 = tk.Button(frame5, text='', height=1, width=1, bg ='lightgray', command=lambda :color_choose_belowline50())
 
 
+
     button_start = tk.Button(frame4, text='Start', font=('Arial',14), command=lambda :draw2(),width=15,height=2)
     button_exit = tk.Button(frame4, text='Exit', font=('Arial',12), command=window.destroy)
-    
-
+    button_clear = tk.Button(frame4, text='clear', font=('Arial',12), command=lambda :ResetFrame())
+    #button_clear.place(x=0,y=50) 
     window.mainloop()
